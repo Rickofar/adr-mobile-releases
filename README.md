@@ -29,8 +29,11 @@ Designed to complement the full ADR Business Suite web application, the mobile a
 - 📦 Product & inventory management
 - 🛒 Sales entries with barcode scanning
 - 📷 Barcode scanning for products and sales
-- 💰 Expense and supply management
-- 👥 Customer management
+- 💰 Expenses with period-based reporting and filters
+- 📊 Finance dashboard with snapshot balances, assets, and liabilities
+- 👥 Customer management with unified transaction history
+- 📈 Profit & Loss reporting on the web
+- 🖨️ Print and CSV export with period banners
 - 📊 Transaction and activity history
 - 🔐 Multi-location support
 
@@ -40,7 +43,13 @@ Designed to complement the full ADR Business Suite web application, the mobile a
 
 ### v1.0.0 — First Android Release
 
-The first public Android release of ADR Business Suite Mobile.
+The first public Android release of ADR Business Suite Mobile. This version ships with:
+
+- **Sales & transactions** — detailed line-item breakdowns, tax/discount visibility, wallet tracking, split payments, and unified history per customer.
+- **Expenses** — period-based reporting (day, week, month, quarter, year, or custom) with filterable summaries, charts, and print/export output that carries the active date range.
+- **Finance dashboard** — cash, bank, card, and receivables snapshots, plus current assets, total liabilities, and supplier debt in a single glanceable view.
+- **Printing & export** — consistent print styling across expenses, creditors, and customer reports. Every document includes a period banner and applied filters.
+- **Web & server updates** — period-aware reporting on the web, a shared `resolvePeriod` helper on the backend, and date filters flowing through all summary and chart endpoints.
 
 📄 **Full release notes:**  
 https://business.adrsystems.app/releases/adr-business-suite/v1.0.0
@@ -66,7 +75,7 @@ https://business.adrsystems.app/releases/adr-business-suite/v1.0.0
 
 ## 📊 Need More Advanced Business Insights?
 
-ADR Business Suite Mobile focuses on operational convenience. For comprehensive business intelligence and reporting, use the web application.
+ADR Business Suite Mobile focuses on operational convenience. For comprehensive business intelligence, full Profit & Loss statements, period comparison, and broader analytics, use the web application.
 
 🌐 **Web Application:** https://business.adrsystems.app
 
@@ -94,6 +103,7 @@ The purpose of this repo is to provide public, permanent download URLs for the A
 ---
 
 **Built with ❤️ by ADR Systems**  
+*Advanced Data Resources · Complex Business. Simplified Systems*
 *Business Intelligence. Business Clarity. Business Data Integrity.*
 
 **ADR Business Suite — Simplified Business Management.**

@@ -41,6 +41,26 @@ Designed to complement the full ADR Business Suite web application, the mobile a
 
 ## 🚀 Current Release
 
+### v1.0.1 — Bug Fix Release *(17 November 2026)*
+
+A focused maintenance release addressing several reported issues across sales, creditors, supply payments, and notifications.
+
+**Fixes in this release:**
+
+- **Sales form — product search** — Resolved an issue where the product list reloaded on every search keystroke. Search results are now stable and no longer trigger unnecessary reloads while typing.
+- **Sales form — packaged & unpackaged products** — Fixed handling of products with packaging (sold either as a full package or by individual unit) and products without packaging, so quantities, pricing, and selection now behave correctly in all cases.
+- **Creditors page — manual adjustment** — Fixed customer search in the manual adjustment flow so it returns results correctly without being limited by pagination.
+- **Supply payment method update** — Fixed a bug where the payment method update screen incorrectly kept showing an "account balance insufficiency" error after a valid update.
+- **Native notifications** — Fixed native notification delivery so alerts now appear reliably on device.
+
+📄 **Full release notes:**  
+https://business.adrsystems.app/releases/adr-business-suite/v1.0.1
+
+⬇️ **Direct download:**  
+[adr-business-suite.apk](../../releases/latest/download/adr-business-suite.apk)
+
+---
+
 ### v1.0.0 — First Android Release
 
 The first public Android release of ADR Business Suite Mobile. This version ships with:
@@ -53,9 +73,6 @@ The first public Android release of ADR Business Suite Mobile. This version ship
 
 📄 **Full release notes:**  
 https://business.adrsystems.app/releases/adr-business-suite/v1.0.0
-
-⬇️ **Direct download:**  
-[adr-business-suite.apk](../../releases/latest/download/adr-business-suite.apk)
 
 ---
 
